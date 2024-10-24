@@ -1,0 +1,352 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .menu-area ul {
+    max-width: 560px;
+  }
+
+  .footer__nav ul li a {
+    font-size: 14px;
+  }
+
+  .Event__details p {
+    font-size: 14px;
+  }
+
+  .Article__info h4 {
+    font-size: 18px;
+  }
+
+  .Articles__content .Article__info .flex p {
+    font-size: 14px;
+  }
+
+  .org__profile {
+    padding: 0 25px;
+  }
+
+  .org__Details__blk ul li {
+    font-size: 14px;
+  }
+
+  /* setu */
+  .membership-form-box {
+    padding: 3em 3em;
+  }
+
+  .membership-form-box p {
+    padding: 0;
+  }
+}
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  img.Ellipse-right {
+    top: 25%;
+    max-width: 35%;
+  }
+
+  .app-scanner {
+    display: none;
+  }
+
+  .footer__content a {
+    margin-bottom: 30px;
+  }
+
+  .footer__content {
+    margin-bottom: 50px;
+  }
+
+  .box-style {
+    margin-inline: auto;
+  }
+
+  .Articles__blk {
+    max-width: 46%;
+    display: inline-block;
+    margin: 20px 10px;
+  }
+
+  .page__btns {
+    padding-top: 35px;
+  }
+
+  .membership-form-box {
+    padding: 25px;
+  }
+
+  .membership-form .form-btn {
+    gap: 20px !important;
+  }
+
+  .membership-form .form-btn {
+    margin-top: 25px;
+  }
+
+  .membership-form-box h4 {
+    font-size: 22px;
+  }
+
+  .membership-form-box p {
+    margin-bottom: 20px;
+  }
+
+  .form-timeline {
+    margin-bottom: 25px;
+  }
+
+  .form-timeline ul li {
+    padding-left: 19px;
+  }
+
+  .form-timeline ul {
+    gap: 16px !important;
+  }
+
+  .join-area {
+    padding-bottom: 100px;
+  }
+
+  .plan__card {
+    margin-bottom: 20px;
+  }
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+  :root {
+    --thmColor: #0997d9;
+    --textColor: #505050;
+
+    --f18: 16px;
+    --f20: 18px;
+    --f22: 20px;
+    --f24: 20px;
+    --f28: 24px;
+    --f30: 26px;
+    --f32: 28px;
+    --f36: 30px;
+    --f40: 34px;
+    --f48: 36px;
+    --f64: 54px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  img.Ellipse-right {
+    top: 28%;
+    max-width: 47%;
+  }
+
+  img.Ellipse-top {
+    max-width: 50%;
+    opacity: 0.5;
+  }
+
+  .thm_btn {
+    font-size: 14px;
+  }
+
+  .app-scanner {
+    display: none;
+  }
+
+  .footer__content a {
+    margin-bottom: 30px;
+  }
+
+  .header-area {
+    padding: 25px 0;
+  }
+
+  .app__wrp {
+    padding: var(--f24);
+  }
+
+  .footer__nav {
+    margin-top: 30px;
+  }
+
+  .footer__nav ul li {
+    margin-bottom: 14px;
+  }
+
+  .footer__btm {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .hero-area {
+    padding: 30px 0 50px;
+  }
+
+  .address-key-value-pair {
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .address-key {
+    width: 100%;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .box-style {
+    max-width: 100%;
+  }
+
+  .app__content h1 {
+    font-size: 24px;
+  }
+
+  .Article__info h4 {
+    font-size: 18px;
+  }
+
+  .Articles__content .Article__info .flex p {
+    font-size: 14px;
+  }
+
+  .Article__label {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .org__profile {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .profile__info>i {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile__info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .org__btns {
+    justify-content: center;
+  }
+
+  /* Setu */
+  .mb_150 {
+    margin-bottom: 50px;
+  }
+
+  .page__btns {
+    padding-top: 30px;
+    margin-bottom: -24px;
+  }
+
+  .join-area {
+    padding-bottom: 50px;
+  }
+
+  .membership-form-box {
+    padding: 25px;
+  }
+
+  .membership-form .form-btn {
+    gap: 20px !important;
+  }
+
+  .membership-form .form-btn {
+    margin-top: 25px;
+  }
+
+  .membership-form-box h4 {
+    font-size: 22px;
+  }
+
+  .membership-form-box p {
+    margin-bottom: 20px;
+  }
+
+  .form-timeline {
+    margin-bottom: 25px;
+  }
+
+  .form-timeline ul li {
+    padding-left: 19px;
+  }
+
+  .form-timeline ul {
+    gap: 16px !important;
+  }
+
+  .join-area {
+    padding-bottom: 100px;
+  }
+
+  .form-btn button.site-btn {
+    font-size: 14px;
+  }
+
+  .plan-heading h2 {
+    font-size: 30px;
+  }
+
+  .plan-heading h5 {
+    font-size: 22px;
+  }
+
+  .plan__title {
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 28px;
+  }
+
+  .plan__title__right a {
+    width: 120px;
+    height: 42px;
+  }
+
+  .footer-area {
+    padding-top: 40px;
+  }
+
+  .plan__card {
+    margin-bottom: 20px;
+  }
+
+  .plan__wrap {
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .org__events__card__content h5 {
+    min-height: auto;
+  }
+
+  .cancel__modal .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cancel__modal {
+    padding: 36px;
+    padding-top: 50px;
+  }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
