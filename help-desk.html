@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Help Desk</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="#" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <img src="assets/img/Ellipse-top.png" class="Ellipse-top" alt="" />
+    <img src="assets/img/Ellipse-right.png" class="Ellipse-right" alt="" />
+
+    <!-- header-area START -->
+    <div class="header-area">
+      <div class="container lg">
+        <div class="row align-items-center">
+          <div class="col-lg-2 col-6">
+            <div class="logo-area">
+              <a href="index.html"><img src="assets/img/logo.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 d-none d-lg-block text-right">
+            <div class="menu-area">
+              <nav>
+                <ul id="nav">
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">Communities</a></li>
+                  <li><a href="#">Messages</a></li>
+                  <li><a href="#">Discover Portal <img src="assets/img/all-icons/external-link.svg" alt=""></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-2 d-none d-lg-block text-right">
+            <div class="user-notification">
+              <div class="notification">
+                <a href="#"
+                  ><img src="assets/img/all-icons/notify-icon.svg" alt=""
+                /></a>
+              </div>
+              <div class="user">
+                <i><img src="assets/img/user-img.png" alt="" /></i>
+                <span
+                  ><img src="assets/img/all-icons/down-arrow.svg" alt=""
+                /></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 d-block d-lg-none text-center">
+            <div class="bar__icon">
+              <a class="humbergar siteBar-btn" href="#">
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile-menu START -->
+    <div class="mobile-menu">
+      <div class="user-notification">
+        <div class="notification">
+          <a href="#"
+            ><img src="assets/img/all-icons/notify-icon.svg" alt=""
+          /></a>
+        </div>
+        <div class="user">
+          <i><img src="assets/img/user-img.png" alt="" /></i>
+          <span><img src="assets/img/all-icons/down-arrow.svg" alt="" /></span>
+        </div>
+      </div>
+      <nav>
+        <ul id="nav">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Communities</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">Discover Portal <img src="assets/img/all-icons/external-link.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- header-area END -->
+
+    <main>
+      <!---------Settings Section START ---------->
+      <section class="setting-area mt_50 mb_100">
+        <div class="container">
+          <div class="setting__wrap">
+            <div class="row g-3">
+              <div class="col-lg-4">
+                <div class="help__btns">
+                  <h5>Categories</h5>
+                  <div
+                    class="nav flex-column nav-pills me-3 help__btn"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <button
+                      class="nav-link active"
+                      id="v-pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-home"
+                      aria-selected="true"
+                    >
+                      <img
+                        src="assets/img/all-icons/message-square.svg"
+                        alt=""
+                      />
+                      Contact Us
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="v-pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-profile"
+                      aria-selected="false"
+                    >
+                      <img src="assets/img/all-icons/server.svg" alt="" />
+                      Support Tickets
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="v-pills-messages-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-messages"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-messages"
+                      aria-selected="false"
+                    >
+                      <img src="assets/img/all-icons/list.svg" alt="" />
+                      FAQs
+                    </button>
+                    <button
+                      class="nav-link"
+                      id="v-pills-settings-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-settings"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-settings"
+                      aria-selected="false"
+                    >
+                      <img src="assets/img/all-icons/layout.svg" alt="" />
+                      Take a Tour
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-8">
+                <div class="settings__content">
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-pills-home"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-home-tab"
+                    >
+                      <div class="settings__page settings__page2">
+                        <div class="setting__page__top">
+                          <h4>Send us a Message</h4>
+                          <p>
+                            Have any questions or concerns? Let us know about
+                            it.
+                          </p>
+                        </div>
+
+                        <form action="" id="settings__form">
+                          <div class="form__single__textfield">
+                            <label>Full name</label>
+                            <div class="pas__textfield pas__textfield2">
+                              <input type="text" placeholder="Sheryl Advino" />
+                            </div>
+                          </div>
+
+                          <div class="form__single__textfield">
+                            <label>Email address</label>
+                            <div class="pas__textfield pas__textfield2">
+                              <input
+                                type="email"
+                                placeholder="user@kannect.com"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="form__single__textfield">
+                            <label>Subject <span>*</span></label>
+                            <div class="pas__textfield">
+                              <div class="single-text-field single-text-field1">
+                                <select name="" id="">
+                                  <option value="">Reason for contact</option>
+                                  <option value="">Support Ticket</option>
+                                  <option value="">Feedback</option>
+                                  <option value="">Suggestion</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form__single__textfield">
+                            <label>Subject <span>*</span></label>
+                            <div class="pas__textfield">
+                              <div class="single-text-field single-text-field2">
+                                <select name="" id="">
+                                  <option value="">Select</option>
+                                  <option value="">Mobile</option>
+                                  <option value="">Computer</option>
+                                  <option value="">Laptop</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form__single__textfield">
+                            <label>Message <span>*</span></label>
+                            <textarea
+                              name=""
+                              id=""
+                              placeholder="Write here"
+                            ></textarea>
+                          </div>
+                          <div class="form__single__textfield">
+                            <label>File link</label>
+                            <div class="pas__textfield">
+                              <input
+                                type="text"
+                                placeholder="Any file links to be shared"
+                              />
+                            </div>
+                          </div>
+                          <input
+                            type="submit"
+                            value="Submit"
+                            class="submit__btn"
+                          />
+                        </form>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-profile"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                    >
+                      <div class="settings__page settings__page2">
+                        <div class="setting__page__top">
+                          <h4>Send us a Message</h4>
+                          <p>
+                            Have any questions or concerns? Let us know about
+                            it.
+                          </p>
+                        </div>
+
+                        <div class="ticket__list">
+                          <h5>Ticket List</h5>
+                          <div class="ticket__list__table">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <td>ID</td>
+                                  <td>Subject</td>
+                                  <td>Created Date</td>
+                                  <td>Priority</td>
+                                  <td>Status</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>32</td>
+                                  <td>
+                                    Task status is not working. Unable to <br />
+                                    change
+                                  </td>
+                                  <td>Oct 19, 2024</td>
+                                  <td><span>High</span></td>
+                                  <td class="status">
+                                    <button
+                                      id="open1"
+                                      class="opens"
+                                      onclick="clickBtn()"
+                                    >
+                                      Open</button
+                                    ><span>1</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>45</td>
+                                  <td>Messages Issue</td>
+                                  <td>Sep 29, 2024</td>
+                                  <td><span>Low</span></td>
+                                  <td class="status">
+                                    <button class="closed">Closed</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>56</td>
+                                  <td>Can’t join community</td>
+                                  <td>Aug 30, 2024</td>
+                                  <td><span>Medium</span></td>
+                                  <td class="status">
+                                    <button class="opens" id="open2">
+                                      Open
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="ticket__details">
+                        <div class="back__btns">
+                          <a href="#" class="back__btn"
+                            ><img
+                              src="assets/img/all-icons/arrow-left.svg"
+                              alt=""
+                            />Support Tickets
+                          </a>
+                          <h4>Support Ticket Details</h4>
+                        </div>
+                        <div class="ticket__desc">
+                          <div class="ticket__desc__content">
+                            <div class="ticket__content__top">
+                              <h6>Ticket subject</h6>
+                              <p>
+                                I’m unable to sent task to any of my
+                                organization members.
+                              </p>
+                            </div>
+                            <div class="ticket__content__bottom">
+                              <h6>Ticket Description</h6>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="ticket__box">
+                            <ul>
+                              <li><span>Ticket ID</span><span>45</span></li>
+                              <li>
+                                <span>Ticket created on</span
+                                ><span>Jan 19, 2024</span>
+                              </li>
+                              <li>
+                                <span>Priority</span
+                                ><span class="high">High</span>
+                              </li>
+                              <li><span>Ticket ID</span><span>101</span></li>
+                              <li><span>Support reply</span><span>1</span></li>
+                              <li>
+                                <span>Status</span
+                                ><span class="open">Open</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="support__ticket__reply">
+                          <span>File link</span><br />
+                          <a href="hhtps://www.myfile.com"
+                            >hhtps://www.myfile.com</a
+                          >
+                          <h5>Support Ticket Reply</h5>
+                          <div class="support__ticket__reply__card">
+                            <h5>Kannect Support</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit, sed do eiusmod tempor incididunt ut labore
+                              et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut
+                              aliquip ex ea commodo consequat.
+                            </p>
+                            <p>
+                              <span>Jan 24, 2024</span> at <span>05:00 PM</span>
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="reply__textarea">
+                          <h5>Reply to Kannect</h5>
+                          <div class="reply__textfield">
+                            <textarea
+                              name=""
+                              id=""
+                              placeholder="Write here"
+                            ></textarea>
+                            <input type="button" value="Post" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-messages"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-messages-tab"
+                    >
+                      <div class="help__faq">
+                        <h4>Frequently Asked Questions (FAQs)</h4>
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                              >
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit?
+                                <img
+                                  src="assets/img/all-icons/accordion-arrow.svg"
+                                  alt=""
+                                />
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseOne"
+                              class="accordion-collapse collapse show"
+                              aria-labelledby="headingOne"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="help__faq__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                              >
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit?
+                                <img
+                                  src="assets/img/all-icons/accordion-arrow.svg"
+                                  alt=""
+                                />
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseTwo"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingTwo"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="help__faq__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
+                              >
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit?
+                                <img
+                                  src="assets/img/all-icons/accordion-arrow.svg"
+                                  alt=""
+                                />
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseThree"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingThree"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="help__faq__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour"
+                                aria-expanded="false"
+                                aria-controls="collapseFour"
+                              >
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit?
+                                <img
+                                  src="assets/img/all-icons/accordion-arrow.svg"
+                                  alt=""
+                                />
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseFour"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingFour"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <div class="help__faq__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-settings"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-settings-tab"
+                    >
+                      ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------Settings Section End ---------->
+    </main>
+
+    <!---------footer Section START ---------->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer__content">
+              <a href=""><img src="assets/img/logo.svg" alt="" /></a>
+              <p>
+                There are many variations passages of Lorem Ipsum available, but
+                the majority have suffered alteration. There are many variations
+                passages of Lorem Ipsum available, but the majority have
+                suffered alteration
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer__nav">
+              <ul>
+                <li>
+                  <h6>Our services</h6>
+                </li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Explore Communities</a></li>
+                <li><a href="">Upcoming Events</a></li>
+                <li><a href="">Blogs abd articles</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer__nav">
+              <ul>
+                <li>
+                  <h6>Get in touch</h6>
+                </li>
+                <li>
+                  <a href="">
+                    <i><img src="assets/img/all-icons/map-pin.svg" alt="" /></i>
+                    <span
+                      >PO Box 35528, Washington, <br />
+                      DC 20033, USA</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i><img src="assets/img/all-icons/phone.svg" alt="" /></i>
+                    <span>(922) 3354 2252</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i
+                      ><img src="assets/img/all-icons/send-alt.svg" alt=""
+                    /></i>
+                    <span>southwest@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__btm v2">
+        <div class="container">
+          <h2><span>Powered by </span> Kannect</h2>
+          <p>
+            Copyright© 2024 Kannect. All rights reserved.  <span>|</span>
+            <a href="">Privacy Policy</a>
+            <span>|</span>
+            <a href="">Terms of Use</a>
+          </p>
+          <ul>
+            <li>
+              <a href=""
+                ><img src="assets/img/all-icons/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""><img src="assets/img/all-icons/twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="assets/img/all-icons/instagram.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!---------footer Section End ---------->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-bs-dismiss="modal" aria-label="Close">
+              <img src="assets/img/all-icons/close.svg" alt="" />
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="plan__card">
+              <h5>Plus membership plan</h5>
+              <div>
+                <h1>$ 15</h1>
+                <span>/month</span>
+              </div>
+              <h6>Benefits:</h6>
+              <ul>
+                <li>Access to exclusive newsletters</li>
+                <li>Updates on NGO activities</li>
+                <li>opportunity to attend local events and campaigns</li>
+              </ul>
+              <div class="description">
+                <h6>Description:</h6>
+                <p>
+                  This is the Plus plan which offers more benefits to members.
+                  Members can have 24x7 access to the facilities and free
+                  concierge service. This is the Plus plan which offers more
+                  benefits to members. Members can have 24x7 access to the
+                  facilities and free concierge service.
+                </p>
+              </div>
+              <a href="plan-choose.html" class="btns">Get plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS here -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      $("select").niceSelect();
+    </script>
+    <script>
+      let onOf1 = document.getElementById("onOf1"),
+        onOf2 = document.getElementById("onOf2"),
+        onOf3 = document.getElementById("onOf3"),
+        onOf4 = document.getElementById("onOf4"),
+        onOf5 = document.getElementById("onOf5"),
+        ticket__details = document.querySelector(".ticket__details"),
+        back__btn = document.querySelector(".back__btn");
+      const open1 = document.getElementById("open1");
+      const settings__page2 = document.querySelector(".settings__page");
+      open1.addEventListener("click", () => {
+        ticket__details.classList.add("show");
+        settings__page2.classList.add("d-none");
+      });
+      back__btn.addEventListener("click", () => {
+        settings__page2.classList.remove("d-none");
+        ticket__details.classList.remove("show");
+      });
+
+      onOf1.addEventListener("click", () => {
+        onOf1.classList.toggle("active");
+      });
+      onOf2.addEventListener("click", () => {
+        onOf2.classList.toggle("active");
+      });
+      onOf3.addEventListener("click", () => {
+        onOf3.classList.toggle("active");
+      });
+      onOf4.addEventListener("click", () => {
+        onOf4.classList.toggle("active");
+      });
+      onOf5.addEventListener("click", () => {
+        onOf5.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

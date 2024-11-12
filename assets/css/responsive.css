@@ -1,10 +1,20 @@
 /* Big screen :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .ev__tab__text h6 {
+    font-size: 14px;
+}
+
+.Events__tab ul li {
+    gap: 14px;
+}
+
+}
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
   .menu-area ul {
     max-width: 560px;
+    gap: 36px;
   }
 
   .footer__nav ul li a {
@@ -39,6 +49,56 @@
   .membership-form-box p {
     padding: 0;
   }
+  .Reminder__list ul {
+    gap: 16px;
+}
+
+.Reminder__list ul li span {
+    font-size: 14px;
+}
+
+.Reminder__slider p {
+    font-size: 13px;
+}
+.profile__info p {
+  font-size: 14px;
+}
+.Community__tab__content ul li {
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cmm__btn {
+  margin-left: auto;
+}
+.org-content.v2 .address-key-value-pair {
+  flex-wrap: wrap;
+}
+.chat__user .flex p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.setting__btns .nav button {
+  font-size: 15px;
+  padding: 22px 24px !important;
+  height: auto;
+}
+.notification__preference__btns {
+  padding: 20px;
+}
+.footer__btm p {
+  font-size: 14px;
+}
+
+.footer__btm h2 {
+  font-size: 26px;
+}
+
+.footer__btm span {
+  font-size: 12px;
+}
 }
 
 /* Tablet screen :768px. */
@@ -113,6 +173,89 @@
   .plan__card {
     margin-bottom: 20px;
   }
+
+
+.help-area .row {
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+
+.help___img {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+.help__content {
+    text-align: center;
+}
+
+.help__content h1 {
+    margin-inline: auto;
+}
+
+.help__content ul {
+    justify-content: center;
+}
+.org__events__card.org__card {
+  margin-top: 20px;
+}
+
+.small .profile__info {
+  gap: 10px;
+}
+
+.ft__org__blk {
+  margin-top: 20px;
+}
+.footer__btm.v2 {
+  flex-direction: column;
+  gap: 20px;
+}
+.Reminder__blk {
+  margin: 20px 0;
+}
+
+.event_text {
+  margin-top: -180px;
+}
+.org-content.v2 .address-key-value-pair {
+  flex-wrap: wrap;
+}
+.Events__tab__wrp {
+  height: auto;
+}
+.messages-area .row {
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+.setting__btns .nav button {
+  font-size: 15px;
+  padding: 22px 24px !important;
+  height: auto;
+}
+
+.notification__preference__btns {
+  padding: 20px;
+}
+.calendar__blk.v2 {
+  margin: auto;
+}
+.footer__btm p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer__btm h2 {
+  font-size: 26px;
+}
+
+.footer__btm span {
+  font-size: 12px;
+}
+.footer__btm.v2 .container {
+  gap: 20px;
+}
 }
 
 /* small screen :320px. */
@@ -163,6 +306,8 @@
   .header-area {
     padding: 25px 0;
   }
+
+.header-area .container {max-width: 96%;width: 100%;}
 
   .app__wrp {
     padding: var(--f24);
@@ -228,6 +373,10 @@
     padding: 0;
   }
 
+.org__profile.small {
+    flex-direction: row;
+}
+
   .profile__info>i {
     width: 100px;
     height: 100px;
@@ -236,6 +385,7 @@
   .profile__info {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .org__btns {
@@ -341,7 +491,224 @@
     padding: 36px;
     padding-top: 50px;
   }
+  .help-area .row {
+    flex-direction: column-reverse;
+    gap: 30px;
+}
 
+.help___img {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+.help__content {
+    text-align: center;
+}
+
+.help__content h1 {
+    margin-inline: auto;
+    font-size: 30px;
+}
+
+.help__content ul {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.help__content ul li {
+    padding: 0;
+}
+
+.help__content ul h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.org__events__card.org__card {
+  margin-top: 20px;
+}
+
+.small .profile__info {
+  gap: 10px;
+  flex-direction: row;
+}
+
+.ft__org__blk {
+  margin-top: 20px;
+}
+.footer__btm.v2 {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ft__org__blk .flex {
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.ft__org__blk .flex span {
+  width: 100%;
+}
+.mb_100{
+    margin-bottom: 60px;
+}
+.Reminder__blk {
+  margin: 20px 0;
+}
+
+.event_text {
+  margin-top: -172px;
+}
+.welcome-area {
+  padding: 20px 0 50px;
+}
+
+.src__wrp {
+  flex-direction: column;
+}
+
+.Reminder__slider p {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.Reminder__slider p img {
+  display: none !important;
+}
+
+.Reminder__list ul li {
+  width: 46%;
+}
+
+.Reminder__list ul {
+  flex-wrap: wrap;
+}
+
+.Task__blk {
+  flex-wrap: wrap;
+}
+
+.event_blk {
+  max-width: 300px;
+  margin-inline: auto;
+}
+.cm__blk {
+  margin-bottom: 30px;
+}
+.sec__title {
+  text-align: center;
+}
+.profile__info p {
+  font-size: 14px;
+}
+.Community__tab__content ul li {
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.Community__tab__content ul li .cmm__btn {
+    margin: auto;
+}
+
+.cmm__btn {
+  margin-left: auto;
+}
+.Community__tab__content ul li .flex {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.prof__img > div > img {
+  width: 80px;
+  height: 80px;
+}
+
+.prof__img a {
+  bottom: 0;
+}
+.Events__tab__wrp {
+  height: auto;
+}
+.messages-area .row {
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+.chat__user .flex p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.inCome-text {
+  width: auto;
+}
+
+.inCome-text-wrp {
+  width: 100%;
+}
+
+.outGo-text {
+  width: calc(100% - 35px);
+}
+.chat__list ul {
+  height: 220px;
+  overflow: auto;
+}
+
+.messages-area {
+  padding-top: 20px;
+}
+.inCome-text p {
+  font-size: 14px;
+}
+.ticket__list__table table {
+  min-width: 700px;
+}
+
+.ticket__list__table {
+  overflow: auto;
+}
+.setting__btns .nav button {
+  font-size: 15px;
+  padding: 22px 24px !important;
+  height: auto;
+}
+.notification__preference__btns {
+  padding: 20px;
+}
+.notification__preference__btns ul li{
+    width: 100%;
+}
+.task__top {
+    flex-wrap: wrap;
+}
+
+.task__prog {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 30px;
+    margin-top: 20px;
+}
+.footer__btm p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer__btm h2 {
+  font-size: 26px;
+}
+
+.footer__btm span {
+  font-size: 12px;
+}
+.footer__btm.v2 .container {
+  gap: 20px;
+  flex-direction: column-reverse;
+}
 }
 
 /* Large Mobile screen :480px. */

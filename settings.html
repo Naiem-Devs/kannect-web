@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Setting One</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="#" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <img src="assets/img/Ellipse-top.png" class="Ellipse-top" alt="" />
+  <img src="assets/img/Ellipse-right.png" class="Ellipse-right" alt="" />
+
+  <!-- header-area START -->
+  <div class="header-area">
+    <div class="container lg">
+      <div class="row align-items-center">
+        <div class="col-lg-2 col-6">
+          <div class="logo-area">
+            <a href="index.html"><img src="assets/img/logo.svg" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-lg-8 d-none d-lg-block text-right">
+          <div class="menu-area">
+            <nav>
+              <ul id="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Communities</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Discover Portal <img src="assets/img/all-icons/external-link.svg" alt=""></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-lg-2 d-none d-lg-block text-right">
+          <div class="user-notification">
+            <div class="notification">
+              <a href="#"><img src="assets/img/all-icons/notify-icon.svg" alt="" /></a>
+            </div>
+            <div class="user">
+              <i><img src="assets/img/user-img.png" alt="" /></i>
+              <span><img src="assets/img/all-icons/down-arrow.svg" alt="" /></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 d-block d-lg-none text-center">
+          <div class="bar__icon">
+            <a class="humbergar siteBar-btn" href="#">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- mobile-menu START -->
+  <div class="mobile-menu">
+    <div class="user-notification">
+      <div class="notification">
+        <a href="#"><img src="assets/img/all-icons/notify-icon.svg" alt="" /></a>
+      </div>
+      <div class="user">
+        <i><img src="assets/img/user-img.png" alt="" /></i>
+        <span><img src="assets/img/all-icons/down-arrow.svg" alt="" /></span>
+      </div>
+    </div>
+    <nav>
+      <ul id="nav">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Communities</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Discover Portal <img src="assets/img/all-icons/external-link.svg" alt=""></a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- header-area END -->
+
+  <main>
+    <!---------Settings Section START ---------->
+    <section class="setting-area mt_50 mb_100">
+      <div class="container">
+        <div class="setting__wrap">
+          <div class="row g-3">
+            <div class="col-lg-4">
+              <div class="setting__btns">
+                <h3>Settings</h3>
+                <p>
+                  All organization and user profile or account related
+                  settings.
+                </p>
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                    aria-selected="true">
+                    <img src="assets/img/all-icons/bell.svg" alt="" />
+                    Notifications
+                  </button>
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">
+                    <img src="assets/img/all-icons/lock.svg" alt="" />
+                    Change Account Password
+                  </button>
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">
+                    <img src="assets/img/all-icons/list.svg" alt="" />
+                    Region, Date and Time
+                  </button>
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">
+                    <img src="assets/img/all-icons/server.svg" alt="" />
+                    Manage Account
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="settings__content">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+                    <div class="settings__page">
+                      <div class="setting__page__top">
+                        <h4>Notifications</h4>
+                        <p>Manage your Kannect app notifications</p>
+                        <div class="notification__onof">
+                          <span>Enable all push notifications</span>
+                          <div class="on__of" id="onOf1"></div>
+                        </div>
+                      </div>
+                      <div class="notification__preference">
+                        <p>Set your notification preferences</p>
+                        <div class="notification__preference__btns">
+                          <ul>
+                            <li><div class="on__of" id="onOf2"></div> <span>New Messages</span></li>
+                            <li><div class="on__of" id="onOf3"></div> <span>New Members</span></li>
+                            <li><div class="on__of" id="onOf4"></div> <span>New Task</span></li>
+                            <li><div class="on__of" id="onOf5"></div> <span>New Donations</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="settings__page settings__page2">
+                      <div class="setting__page__top">
+                        <h4>Change Account Password</h4>
+                        <p>
+                          Update your <span>Kannect</span> password. Create a
+                          new password that is at least 8 characters long.
+                          <img src="assets/img/all-icons/alert-circle.svg" alt="" />
+                        </p>
+                      </div>
+
+                      <form action="" id="settings__form">
+                        <div class="form__single__textfield">
+                          <label>Current password*</label>
+                          <div class="pas__textfield">
+                            <input type="password" placeholder="Enter current password" />
+                            <img src="assets/img/all-icons/eye.svg" alt="" />
+                          </div>
+                        </div>
+
+                        <div class="form__single__textfield">
+                          <label>New password</label>
+                          <div class="pas__textfield">
+                            <input type="password" placeholder="Enter new password" />
+                            <img src="assets/img/all-icons/eye.svg" alt="" />
+                          </div>
+                        </div>
+
+                        <div class="form__single__textfield">
+                          <label>Re-enter new password</label>
+                          <div class="pas__textfield">
+                            <input type="password" placeholder="Re-enter new password" />
+                            <img src="assets/img/all-icons/eye.svg" alt="" />
+                          </div>
+                        </div>
+                        <div class="form__checkbox">
+                          <div class="custom__checkbox">
+                            <input type="checkbox" id="chckbx" />
+                          </div>
+                          <label for="chckbx">Require all devices to sign in with new
+                            password</label>
+                        </div>
+                        <input type="button" value="Save New Password" />
+                      </form>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+                    ...
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------Settings Section End ---------->
+  </main>
+
+  <!---------footer Section START ---------->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="footer__content">
+            <a href=""><img src="assets/img/logo.svg" alt="" /></a>
+            <p>
+              There are many variations passages of Lorem Ipsum available, but
+              the majority have suffered alteration. There are many variations
+              passages of Lorem Ipsum available, but the majority have
+              suffered alteration
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer__nav">
+            <ul>
+              <li>
+                <h6>Our services</h6>
+              </li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Explore Communities</a></li>
+              <li><a href="">Upcoming Events</a></li>
+              <li><a href="">Blogs abd articles</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer__nav">
+            <ul>
+              <li>
+                <h6>Get in touch</h6>
+              </li>
+              <li>
+                <a href="">
+                  <i><img src="assets/img/all-icons/map-pin.svg" alt="" /></i>
+                  <span>PO Box 35528, Washington, <br />
+                    DC 20033, USA</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i><img src="assets/img/all-icons/phone.svg" alt="" /></i>
+                  <span>(922) 3354 2252</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i><img src="assets/img/all-icons/send-alt.svg" alt="" /></i>
+                  <span>southwest@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__btm v2">
+      <div class="container">
+        <h2><span>Powered by </span> Kannect</h2>
+        <p>
+          Copyright© 2024 Kannect. All rights reserved.  <span>|</span>
+          <a href="">Privacy Policy</a>
+          <span>|</span>
+          <a href="">Terms of Use</a>
+        </p>
+        <ul>
+          <li>
+            <a href=""
+              ><img src="assets/img/all-icons/facebook.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/img/all-icons/twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="assets/img/all-icons/instagram.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!---------footer Section End ---------->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" data-bs-dismiss="modal" aria-label="Close">
+            <img src="assets/img/all-icons/close.svg" alt="" />
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="plan__card">
+            <h5>Plus membership plan</h5>
+            <div>
+              <h1>$ 15</h1>
+              <span>/month</span>
+            </div>
+            <h6>Benefits:</h6>
+            <ul>
+              <li>Access to exclusive newsletters</li>
+              <li>Updates on NGO activities</li>
+              <li>opportunity to attend local events and campaigns</li>
+            </ul>
+            <div class="description">
+              <h6>Description:</h6>
+              <p>
+                This is the Plus plan which offers more benefits to members.
+                Members can have 24x7 access to the facilities and free
+                concierge service. This is the Plus plan which offers more
+                benefits to members. Members can have 24x7 access to the
+                facilities and free concierge service.
+              </p>
+            </div>
+            <a href="plan-choose.html" class="btns">Get plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS here -->
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    let onOf1 = document.getElementById("onOf1"),
+      onOf2 = document.getElementById("onOf2"),
+      onOf3 = document.getElementById("onOf3"),
+      onOf4 = document.getElementById("onOf4"),
+      onOf5 = document.getElementById("onOf5");
+
+    onOf1.addEventListener("click", () => {
+      onOf1.classList.toggle("active");
+    });
+    onOf2.addEventListener("click", () => {
+      onOf2.classList.toggle("active");
+    });
+    onOf3.addEventListener("click", () => {
+      onOf3.classList.toggle("active");
+    });
+    onOf4.addEventListener("click", () => {
+      onOf4.classList.toggle("active");
+    });
+    onOf5.addEventListener("click", () => {
+      onOf5.classList.toggle("active");
+    });
+  </script>
+</body>
+
+</html>
